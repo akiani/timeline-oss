@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291D3C812E5929E60098D2F0 /* AuthorizationStateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D3C7C2E5929E60098D2F0 /* AuthorizationStateService.swift */; };
+		291D3C832E5929E60098D2F0 /* DoctorQuestionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D3C7E2E5929E60098D2F0 /* DoctorQuestionsService.swift */; };
+		292B75192E29912400221EB0 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 292B75182E29912400221EB0 /* MarkdownUI */; };
+		292B751F2E37230100221EB0 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B751C2E37230100221EB0 /* GeminiService.swift */; };
+		292B75212E3736B100221EB0 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 292B75202E3736B100221EB0 /* FirebaseAppCheck */; };
+		292B75272E3968CC00221EB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B75252E3968CC00221EB0 /* SettingsView.swift */; };
+		292B75312E39A60E00221EB0 /* MockFHIRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B75302E39A60E00221EB0 /* MockFHIRData.swift */; };
+		295AD9F62DDBE044002DF348 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9ED2DDBE044002DF348 /* TimelineView.swift */; };
+		295AD9F72DDBE044002DF348 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9F02DDBE044002DF348 /* ColorExtensions.swift */; };
+		295AD9F82DDBE044002DF348 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9E72DDBE044002DF348 /* HealthKitService.swift */; };
+		295AD9F92DDBE044002DF348 /* FHIRRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9EB2DDBE044002DF348 /* FHIRRecordView.swift */; };
+		295AD9FA2DDBE044002DF348 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9EA2DDBE044002DF348 /* OnboardingView.swift */; };
+		295AD9FB2DDBE044002DF348 /* FHIRTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9E62DDBE044002DF348 /* FHIRTimelineService.swift */; };
+		295AD9FC2DDBE044002DF348 /* TimelinePDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9E82DDBE044002DF348 /* TimelinePDFService.swift */; };
+		295AD9FD2DDBE044002DF348 /* TimelineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9F42DDBE044002DF348 /* TimelineApp.swift */; };
+		295AD9FF2DDBE045002DF348 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295AD9FE2DDBE045002DF348 /* SearchBar.swift */; };
+		2973BF792DD7B46C00708D94 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2973BF782DD7B46C00708D94 /* FirebaseCore */; };
+		2973BF7B2DD7B46C00708D94 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2973BF7A2DD7B46C00708D94 /* FirebaseVertexAI */; };
+		29DB44DA2E74B69400B2C562 /* DoctorQuestionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB44D82E74B69400B2C562 /* DoctorQuestionsSheet.swift */; };
+		29DB44DC2E74B69400B2C562 /* DetailedSummarySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB44D72E74B69400B2C562 /* DetailedSummarySheet.swift */; };
+		29DB451F2E74E80D00B2C562 /* AttachmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB451A2E74E80D00B2C562 /* AttachmentService.swift */; };
+		29DB45202E74E80D00B2C562 /* ClusterSummarizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB451B2E74E80D00B2C562 /* ClusterSummarizationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291D3C612E5929C40098D2F0 /* GeminiCacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiCacheKey.swift; sourceTree = "<group>"; };
+		291D3C7C2E5929E60098D2F0 /* AuthorizationStateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationStateService.swift; sourceTree = "<group>"; };
+		291D3C7E2E5929E60098D2F0 /* DoctorQuestionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorQuestionsService.swift; sourceTree = "<group>"; };
+		291D3C802E5929E60098D2F0 /* RemindersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersService.swift; sourceTree = "<group>"; };
+		292B751C2E37230100221EB0 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		292B751D2E37230100221EB0 /* PromptsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsConfiguration.swift; sourceTree = "<group>"; };
+		292B75252E3968CC00221EB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		292B75302E39A60E00221EB0 /* MockFHIRData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFHIRData.swift; sourceTree = "<group>"; };
+		293A2DB62DDC06490079E588 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		295AD9E32DDBE044002DF348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		295AD9E62DDBE044002DF348 /* FHIRTimelineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHIRTimelineService.swift; sourceTree = "<group>"; };
+		295AD9E72DDBE044002DF348 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		295AD9E82DDBE044002DF348 /* TimelinePDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinePDFService.swift; sourceTree = "<group>"; };
+		295AD9EA2DDBE044002DF348 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		295AD9EB2DDBE044002DF348 /* FHIRRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHIRRecordView.swift; sourceTree = "<group>"; };
+		295AD9ED2DDBE044002DF348 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		295AD9EF2DDBE044002DF348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		295AD9F02DDBE044002DF348 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		295AD9F32DDBE044002DF348 /* Timeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timeline.entitlements; sourceTree = "<group>"; };
+		295AD9F42DDBE044002DF348 /* TimelineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineApp.swift; sourceTree = "<group>"; };
+		295AD9FE2DDBE045002DF348 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		2973BF562DD7AF2D00708D94 /* Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DB44D52E74B69400B2C562 /* ArtifactViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactViewer.swift; sourceTree = "<group>"; };
+		29DB44D62E74B69400B2C562 /* DelightfulLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightfulLoadingView.swift; sourceTree = "<group>"; };
+		29DB44D72E74B69400B2C562 /* DetailedSummarySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedSummarySheet.swift; sourceTree = "<group>"; };
+		29DB44D82E74B69400B2C562 /* DoctorQuestionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorQuestionsSheet.swift; sourceTree = "<group>"; };
+		29DB44D92E74B69400B2C562 /* SimpleAnnotatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnnotatedTextView.swift; sourceTree = "<group>"; };
+		29DB44DF2E74B6AB00B2C562 /* AnnotationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModels.swift; sourceTree = "<group>"; };
+		29DB44E02E74B6AB00B2C562 /* CareEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareEvent.swift; sourceTree = "<group>"; };
+		29DB44E12E74B6AB00B2C562 /* CareEventCluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareEventCluster.swift; sourceTree = "<group>"; };
+		29DB44E22E74B6AB00B2C562 /* ClusterSummaryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterSummaryResponse.swift; sourceTree = "<group>"; };
+		29DB44E32E74B6AB00B2C562 /* FHIRArtifact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHIRArtifact.swift; sourceTree = "<group>"; };
+		29DB44E42E74B6AB00B2C562 /* GeminiCacheEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiCacheEntry.swift; sourceTree = "<group>"; };
+		29DB44E52E74B6AB00B2C562 /* IndividualTimelineEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualTimelineEvent.swift; sourceTree = "<group>"; };
+		29DB44E62E74B6AB00B2C562 /* LiteracyLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteracyLevel.swift; sourceTree = "<group>"; };
+		29DB44EF2E74B6BB00B2C562 /* AnnotationMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationMatcher.swift; sourceTree = "<group>"; };
+		29DB44F02E74B6BB00B2C562 /* ArtifactProcessingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactProcessingService.swift; sourceTree = "<group>"; };
+		29DB44FF2E74D59100B2C562 /* FHIRMappingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHIRMappingService.swift; sourceTree = "<group>"; };
+		29DB45002E74D59100B2C562 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		29DB451A2E74E80D00B2C562 /* AttachmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentService.swift; sourceTree = "<group>"; };
+		29DB451B2E74E80D00B2C562 /* ClusterSummarizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterSummarizationService.swift; sourceTree = "<group>"; };
+		29DB451C2E74E80D00B2C562 /* FHIRResourceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHIRResourceService.swift; sourceTree = "<group>"; };
+		29DB451D2E74E80D00B2C562 /* GeminiCacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiCacheStore.swift; sourceTree = "<group>"; };
+		29DB451E2E74E80D00B2C562 /* TimelineBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineBuilder.swift; sourceTree = "<group>"; };
+		29DB45292E74EC1D00B2C562 /* RecordPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPill.swift; sourceTree = "<group>"; };
+		29DB452A2E74EC1D00B2C562 /* ResourceTypeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTypeIcon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		295ADA042DDBE8CF002DF348 /* Exceptions for "Timeline" folder in "Timeline" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorExtensions.swift,
+				Services/AttachmentService.swift,
+				Services/AuthorizationStateService.swift,
+				Services/ClusterSummarizationService.swift,
+				Services/DoctorQuestionsService.swift,
+				Services/FHIRTimelineService.swift,
+				Services/GeminiService.swift,
+				Services/HealthKitService.swift,
+				Services/MockFHIRData.swift,
+				Services/TimelinePDFService.swift,
+				TimelineApp.swift,
+				Views/DetailedSummarySheet.swift,
+				Views/DoctorQuestionsSheet.swift,
+				Views/FHIRRecordView.swift,
+				Views/OnboardingView.swift,
+				Views/SearchBar.swift,
+				Views/SettingsView.swift,
+				Views/TimelineView.swift,
+			);
+			target = 2973BF552DD7AF2D00708D94 /* Timeline */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2973BF582DD7AF2D00708D94 /* Timeline */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				295ADA042DDBE8CF002DF348 /* Exceptions for "Timeline" folder in "Timeline" target */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2973BF532DD7AF2D00708D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B75212E3736B100221EB0 /* FirebaseAppCheck in Frameworks */,
+				292B75192E29912400221EB0 /* MarkdownUI in Frameworks */,
+				2973BF792DD7B46C00708D94 /* FirebaseCore in Frameworks */,
+				2973BF7B2DD7B46C00708D94 /* FirebaseVertexAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291D3C622E5929C40098D2F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29DB44DF2E74B6AB00B2C562 /* AnnotationModels.swift */,
+				29DB44E02E74B6AB00B2C562 /* CareEvent.swift */,
+				29DB44E12E74B6AB00B2C562 /* CareEventCluster.swift */,
+				29DB44E22E74B6AB00B2C562 /* ClusterSummaryResponse.swift */,
+				29DB44E32E74B6AB00B2C562 /* FHIRArtifact.swift */,
+				29DB44E42E74B6AB00B2C562 /* GeminiCacheEntry.swift */,
+				29DB44E52E74B6AB00B2C562 /* IndividualTimelineEvent.swift */,
+				29DB44E62E74B6AB00B2C562 /* LiteracyLevel.swift */,
+				291D3C612E5929C40098D2F0 /* GeminiCacheKey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		295AD9E42DDBE044002DF348 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				295AD9E32DDBE044002DF348 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		295AD9E92DDBE044002DF348 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				29DB451A2E74E80D00B2C562 /* AttachmentService.swift */,
+				29DB451B2E74E80D00B2C562 /* ClusterSummarizationService.swift */,
+				29DB451C2E74E80D00B2C562 /* FHIRResourceService.swift */,
+				29DB451D2E74E80D00B2C562 /* GeminiCacheStore.swift */,
+				29DB451E2E74E80D00B2C562 /* TimelineBuilder.swift */,
+				29DB44FF2E74D59100B2C562 /* FHIRMappingService.swift */,
+				29DB45002E74D59100B2C562 /* Log.swift */,
+				29DB44EF2E74B6BB00B2C562 /* AnnotationMatcher.swift */,
+				29DB44F02E74B6BB00B2C562 /* ArtifactProcessingService.swift */,
+				291D3C7C2E5929E60098D2F0 /* AuthorizationStateService.swift */,
+				291D3C7E2E5929E60098D2F0 /* DoctorQuestionsService.swift */,
+				291D3C802E5929E60098D2F0 /* RemindersService.swift */,
+				292B751C2E37230100221EB0 /* GeminiService.swift */,
+				292B751D2E37230100221EB0 /* PromptsConfiguration.swift */,
+				295AD9E62DDBE044002DF348 /* FHIRTimelineService.swift */,
+				295AD9E72DDBE044002DF348 /* HealthKitService.swift */,
+				295AD9E82DDBE044002DF348 /* TimelinePDFService.swift */,
+				292B75302E39A60E00221EB0 /* MockFHIRData.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		295AD9EE2DDBE044002DF348 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29DB452B2E74EC1D00B2C562 /* Components */,
+				29DB44D52E74B69400B2C562 /* ArtifactViewer.swift */,
+				29DB44D62E74B69400B2C562 /* DelightfulLoadingView.swift */,
+				29DB44D72E74B69400B2C562 /* DetailedSummarySheet.swift */,
+				29DB44D82E74B69400B2C562 /* DoctorQuestionsSheet.swift */,
+				29DB44D92E74B69400B2C562 /* SimpleAnnotatedTextView.swift */,
+				292B75252E3968CC00221EB0 /* SettingsView.swift */,
+				295AD9EA2DDBE044002DF348 /* OnboardingView.swift */,
+				295AD9EB2DDBE044002DF348 /* FHIRRecordView.swift */,
+				295AD9ED2DDBE044002DF348 /* TimelineView.swift */,
+				295AD9FE2DDBE045002DF348 /* SearchBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		295AD9F52DDBE044002DF348 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				291D3C622E5929C40098D2F0 /* Models */,
+				295AD9E42DDBE044002DF348 /* Preview Content */,
+				295AD9E92DDBE044002DF348 /* Services */,
+				295AD9EE2DDBE044002DF348 /* Views */,
+				295AD9EF2DDBE044002DF348 /* Assets.xcassets */,
+				293A2DB62DDC06490079E588 /* GoogleService-Info.plist */,
+				295AD9F02DDBE044002DF348 /* ColorExtensions.swift */,
+				295AD9F32DDBE044002DF348 /* Timeline.entitlements */,
+				295AD9F42DDBE044002DF348 /* TimelineApp.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		2973BF4D2DD7AF2D00708D94 = {
+			isa = PBXGroup;
+			children = (
+				295AD9F52DDBE044002DF348 /* Timeline */,
+				2973BF572DD7AF2D00708D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2973BF572DD7AF2D00708D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2973BF562DD7AF2D00708D94 /* Timeline.app */,
+				2973BF582DD7AF2D00708D94 /* Timeline */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29DB452B2E74EC1D00B2C562 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				29DB45292E74EC1D00B2C562 /* RecordPill.swift */,
+				29DB452A2E74EC1D00B2C562 /* ResourceTypeIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2973BF552DD7AF2D00708D94 /* Timeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2973BF642DD7AF2D00708D94 /* Build configuration list for PBXNativeTarget "Timeline" */;
+			buildPhases = (
+				2973BF522DD7AF2D00708D94 /* Sources */,
+				2973BF532DD7AF2D00708D94 /* Frameworks */,
+				2973BF542DD7AF2D00708D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2973BF582DD7AF2D00708D94 /* Timeline */,
+			);
+			name = Timeline;
+			packageProductDependencies = (
+				2973BF782DD7B46C00708D94 /* FirebaseCore */,
+				2973BF7A2DD7B46C00708D94 /* FirebaseVertexAI */,
+				292B75182E29912400221EB0 /* MarkdownUI */,
+				292B75202E3736B100221EB0 /* FirebaseAppCheck */,
+			);
+			productName = Timeline;
+			productReference = 2973BF562DD7AF2D00708D94 /* Timeline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2973BF4E2DD7AF2D00708D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					2973BF552DD7AF2D00708D94 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 2973BF512DD7AF2D00708D94 /* Build configuration list for PBXProject "Timeline" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2973BF4D2DD7AF2D00708D94;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2973BF772DD7B46C00708D94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				292B75172E29912400221EB0 /* XCRemoteSwiftPackageReference "MarkdownUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2973BF572DD7AF2D00708D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2973BF552DD7AF2D00708D94 /* Timeline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2973BF542DD7AF2D00708D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2973BF522DD7AF2D00708D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295AD9F62DDBE044002DF348 /* TimelineView.swift in Sources */,
+				295AD9F72DDBE044002DF348 /* ColorExtensions.swift in Sources */,
+				295AD9F82DDBE044002DF348 /* HealthKitService.swift in Sources */,
+				292B75312E39A60E00221EB0 /* MockFHIRData.swift in Sources */,
+				295AD9F92DDBE044002DF348 /* FHIRRecordView.swift in Sources */,
+				292B751F2E37230100221EB0 /* GeminiService.swift in Sources */,
+				295AD9FA2DDBE044002DF348 /* OnboardingView.swift in Sources */,
+				295AD9FB2DDBE044002DF348 /* FHIRTimelineService.swift in Sources */,
+				295AD9FC2DDBE044002DF348 /* TimelinePDFService.swift in Sources */,
+				292B75272E3968CC00221EB0 /* SettingsView.swift in Sources */,
+				29DB44DA2E74B69400B2C562 /* DoctorQuestionsSheet.swift in Sources */,
+				29DB44DC2E74B69400B2C562 /* DetailedSummarySheet.swift in Sources */,
+				29DB451F2E74E80D00B2C562 /* AttachmentService.swift in Sources */,
+				29DB45202E74E80D00B2C562 /* ClusterSummarizationService.swift in Sources */,
+				295AD9FD2DDBE044002DF348 /* TimelineApp.swift in Sources */,
+				291D3C812E5929E60098D2F0 /* AuthorizationStateService.swift in Sources */,
+				291D3C832E5929E60098D2F0 /* DoctorQuestionsService.swift in Sources */,
+				295AD9FF2DDBE045002DF348 /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2973BF622DD7AF2D00708D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C53MSA8B3R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2973BF632DD7AF2D00708D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C53MSA8B3R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2973BF652DD7AF2D00708D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Timeline/Timeline.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeline/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yari Timeline";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Yari Timeline uses Face ID to ensure secure access to your health data.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Timeline needs access to your clinical health records to display them in your timeline.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Timeline needs access to your health data to display a timeline of your medical records.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Timeline needs access to your health data to display a timeline of your medical records.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Yari Timeline needs access to Reminders to help you prepare questions for your doctor visits based on your health timeline.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.5;
+				PRODUCT_BUNDLE_IDENTIFIER = care.yari.timeline.one;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2973BF662DD7AF2D00708D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Timeline/Timeline.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timeline/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yari Timeline";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Yari Timeline uses Face ID to ensure secure access to your health data.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Timeline needs access to your clinical health records to display them in your timeline.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Timeline needs access to your health data to display a timeline of your medical records.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Timeline needs access to your health data to display a timeline of your medical records.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Yari Timeline needs access to Reminders to help you prepare questions for your doctor visits based on your health timeline.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.5;
+				PRODUCT_BUNDLE_IDENTIFIER = care.yari.timeline.one;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2973BF512DD7AF2D00708D94 /* Build configuration list for PBXProject "Timeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2973BF622DD7AF2D00708D94 /* Debug */,
+				2973BF632DD7AF2D00708D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2973BF642DD7AF2D00708D94 /* Build configuration list for PBXNativeTarget "Timeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2973BF652DD7AF2D00708D94 /* Debug */,
+				2973BF662DD7AF2D00708D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		292B75172E29912400221EB0 /* XCRemoteSwiftPackageReference "MarkdownUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/MarkdownUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		2973BF772DD7B46C00708D94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		292B75182E29912400221EB0 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 292B75172E29912400221EB0 /* XCRemoteSwiftPackageReference "MarkdownUI" */;
+			productName = MarkdownUI;
+		};
+		292B75202E3736B100221EB0 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAppCheck;
+		};
+		2973BF782DD7B46C00708D94 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2973BF772DD7B46C00708D94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		2973BF7A2DD7B46C00708D94 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2973BF772DD7B46C00708D94 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2973BF4E2DD7AF2D00708D94 /* Project object */;
+}

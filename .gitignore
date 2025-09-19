@@ -1,0 +1,42 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Firebase Configuration (use GoogleService-Info-TEMPLATE.plist as reference)
+GoogleService-Info.plist
+
+# Archives and symbols
+*.xcarchive/
+*.dSYM/
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Misc tooling
+.claude/
+
+# App Check Debug Token (should never be committed)
+AppCheckDebugToken.txt
